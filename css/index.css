@@ -1,0 +1,28 @@
+h1, h2 {
+    color: red;
+    background-color: #3ce897;
+}
+
+p {
+    color:yellow;
+    border:1px solid black;
+}
+.nee {
+    color:brown;
+}
+
+#nes {
+    color:pink;
+}
+div > p {
+    background-color:grey;
+}
+div ~ p {
+    font-size:2rem;
+}
+p:: font-letter{
+    font-weight:bold;
+}
+p:hover {
+    font-style:italic;
+}
